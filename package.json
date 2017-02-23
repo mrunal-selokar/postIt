@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "mrunal-selokar"
+    "url": "git+https://github.com/mrunal-selokar/postIt.git"
   },
   "author": "mrunal selokar",
   "license": "ISC",
