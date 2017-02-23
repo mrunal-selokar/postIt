@@ -35,6 +35,6 @@ app.post('/new-post', function(request, response){
 	response.redirect("/");
 });
 
-http.createServer(app).listen(4000, function(){
+http.createServer(app).listen(process.env.PORT ||4000, function(){
 	console.log("Server started on port: 4000");
 })
