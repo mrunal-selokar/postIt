@@ -1,0 +1,20 @@
+<% include header.ejs %>
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+
+<form method="post" role="form">
+	<div class="form-control-group">
+		<label for="name"><span class="glyphicon glyphicon-user"></span> Your Name</label><input class= "form-control" type="text" name="name" id="name" placeholder="Your name please!" required="true">
+	</div><br>
+	<div class="form-group">
+	<span class="glyphicon glyphicon-comment"></span> Content<textarea class="form-control" id="content" placeholder="What are you up to?" name="content" required="true" rows="5" ></textarea>
+	</div><br>
+	<div class="form-group">
+
+	<input type="submit" value =" Post" class="btn-block btn" style="background-color: #000; color: #fff;">
+	</div>
+</form>
+</div>
+</div>
+<% include footer.ejs %>
+<!-- use modal to generate this -->
